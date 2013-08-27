@@ -1,0 +1,77 @@
+form .required label {
+    background-image: none ;
+    padding: 0;
+}
+
+.biginput input, .biginput textarea
+{
+	width: 300px;
+}
+input, textarea {
+    border: 1px solid #C4C4C4;
+    clear: both;
+    padding: 2px;
+    width: 98%;
+}
+.box_selected
+{
+	padding: 2px 0 0 16px;
+	border: 1px solid #BF77FF;
+	color: #5F12A1;
+	font-size: 11px;
+	font-weight: bold;
+	background: url("../img/bg_tag.gif") no-repeat scroll 0 2px #E4C5FF;
+	margin-bottom: 1px;
+}
+.autowidth input
+{
+	width: auto;
+    float: left;
+    margin: 0 3px 0 2px;
+}
+/* Related */
+div.radio input
+{
+	width: auto;
+	clear: none;
+	float: left;
+	display: inline;
+}
+div.radio label
+{
+	width: auto;
+	clear: none;
+	float: left;
+	display: inline;
+	margin: 0px 10px 0px 5px;
+}
+
+form div.checkbox {
+	margin-bottom: 6px; 
+}
+form div.checkbox label{
+	width: auto;
+	padding-right: 5px;
+}
+form div.checkbox input{
+	width: auto;
+}
+label {
+	display: block;
+    float: left;
+    width: 150px;
+}
+.note
+{
+	color: #999999;
+	font-style: italic;
+	font-size: 11px;
+	margin-left: 150px;
+}
+div.error-message {
+	color: #ff0000;
+	margin-left: 150px;
+	padding: 0px 0px 1px 13px;
+	background:	url(../img/apps/exclamation.png) no-repeat;
+	background-position: 0px 1px; 
+}

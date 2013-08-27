@@ -1,0 +1,95 @@
+  *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            background: #ffffff;
+            font-size: 14px;
+            font-family: arial,Helvetica,sans-serif;
+                    }
+        div{
+            outline: none;
+            border: none;
+            border-width: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: #76a622;
+                    }
+                a img{
+            border: none;
+                    text-decoration: none;
+        }
+                ul, ol{
+                    list-style-position: inside;
+                }
+        .clear {
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            font-size: 1px;
+            height: 1px;
+        }
+        #container{
+           width: 960px;
+            height:auto;
+            margin: 0px auto;
+            padding: 0px;
+        }
+
+        #header{
+            margin: 0px;
+            padding: 0px;
+            width: 970px;
+            height: 130px;
+            background:url("../img/header.png") no-repeat #FEFEFE;
+        }
+        #wrapper{
+            width: 1000px;
+            height: 540px;
+            background: url("../img/login_bg.jpg") no-repeat;
+        }
+        #content{
+            width: 300px;
+            margin-left: 470px;
+            padding-top: 143px;
+
+        }
+        #footer{
+            width: 970px;
+            height: 200px;
+            background: url("../img/footerbk.png") no-repeat #C4E3F7;
+        }
+
+
+
+        input[type="submit"] {
+            background: url("../img/btn_login.gif") no-repeat scroll 0 0 transparent;
+            border: 0 none;
+            color: #195581;
+            display: inline;
+            font-size: 13px;
+            font-weight:bold;
+            min-width: 0;
+            padding: 4px 8px;
+            text-decoration: none;
+            vertical-align: bottom;
+            width: 58px;
+        }
+        input, textarea {
+            font-family: "frutiger linotype","lucida grande","verdana",sans-serif;
+            padding: 1px;
+        }
+        form div.input {
+            color: #444444;
+            margin-bottom: 3px;
+        }
+        .search label {
+            display: block;
+            float: none;
+            font-weight: bold;
+            width: auto;
+        }
